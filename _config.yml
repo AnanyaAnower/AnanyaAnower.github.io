@@ -23,7 +23,7 @@ repository               : "https://ananyaanower.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Ananya.jpg"
+  avatar           : "profile.png"
   name             : "Ananya Anower"
   pronouns         : "she/her"  
   bio              : "Interdisciplinary Researcher in Neuroengineering and Bioinformatics"
