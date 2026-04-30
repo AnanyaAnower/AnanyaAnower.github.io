@@ -13,8 +13,7 @@
         <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
             <span class="font-bold text-xl text-blue-900">Ananya Anower</span>
             <div class="space-x-6">
-                <!-- Changed: Links now point to Home and the new Projects page -->
-                <a href="index.html" class="hover:text-blue-600 font-medium">Home</a>
+                <a href="index.html" class="hover:text-blue-600 font-medium border-b-2 border-blue-900">Home</a>
                 <a href="projects.html" class="hover:text-blue-600 font-medium">Projects</a>
             </div>
         </div>
@@ -24,20 +23,24 @@
         
         <!-- Sidebar -->
         <aside class="md:col-span-1">
-            <div class="bg-white p-6 rounded-lg shadow-sm text-center">
-                <img src="images/Profile.jpg" alt="Ananya Anower" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-2 border-blue-900">
-                <h1 class="text-xl font-bold">Ananya Anower</h1>
-                <p class="text-gray-600 mb-4">Interdisciplinary Researcher</p>
-                <div class="flex justify-center flex-wrap gap-4 text-blue-900 font-semibold">
+            <!-- Center alignment added via flex and items-center -->
+            <div class="bg-white p-6 rounded-lg shadow-sm flex flex-col items-center text-center sticky top-24">
+                <img src="images/Profile.jpg" alt="Ananya Anower" class="w-40 h-40 rounded-full mb-4 object-cover border-4 border-blue-900 shadow-lg">
+                
+                <h1 class="text-xl font-bold text-blue-900">Ananya Anower</h1>
+                <p class="text-gray-600 mb-4 text-sm">Interdisciplinary Researcher</p>
+                
+                <div class="flex justify-center flex-wrap gap-4 text-blue-900 font-semibold mb-6">
                     <a href="https://github.com/AnanyaAnower" target="_blank" class="hover:underline text-sm">GitHub</a>
                     <a href="https://orcid.org/0009-0009-9388-1639" target="_blank" class="hover:underline text-sm">ORCID</a>
                     <a href="https://www.linkedin.com/in/contact-ananya-anower/" target="_blank" class="hover:underline text-sm">LinkedIn</a>
                 </div>
+
                 <!-- Technical Skills Badges -->
-                <div class="mt-6 flex flex-wrap justify-center gap-2">
-                    <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-mono">MATLAB</span>
-                    <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-mono">Python</span>
-                    <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-mono">EEGLAB</span>
+                <div class="flex flex-wrap justify-center gap-2">
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-mono">MATLAB</span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-mono">Python</span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-mono">EEGLAB</span>
                 </div>
             </div>
         </aside>
@@ -45,33 +48,33 @@
         <!-- Main Content -->
         <main class="md:col-span-2 space-y-12">
             
+            <!-- About Section -->
             <section id="about">
                 <h2 class="text-2xl font-bold border-b-2 border-blue-900 pb-2 mb-4 text-blue-900">About Me</h2>
-                <p class="leading-relaxed text-gray-700">
-                    I am a researcher specializing in the intersection of Neuroengineering and Bioinformatics. 
+                <p class="leading-relaxed text-gray-700 mb-6">
+                    I am a researcher specializing in the intersection of **Neuroengineering** and **Bioinformatics**. 
                     My work focuses on developing AI-driven solutions for healthcare sustainability and 
                     enhancing brain-computer interfaces through advanced signal processing.
                 </p>
-            </section>
 
-            <!-- Research Interests Section -->
-                <h3 class="text-2xl font-bold border-b-2 border-blue-900 pb-2 mb-4 text-blue-900">Research Interest</h3>
-                <p class="leading-relaxed text-gray-700 bg-white p-4 rounded shadow-sm border-l-4 border-blue-900">
+                <!-- Research Interests Section -->
+                <h3 class="text-xl font-bold text-blue-900 mb-3">Research Interests</h3>
+                <div class="leading-relaxed text-gray-700 bg-white p-6 rounded shadow-sm border-l-4 border-blue-900">
                     Cardiovascular Diseases, Phonocardiogram, Neurobehavioral research, Device Designing, 
                     Artificial Intelligence, Machine Learning, Instrumentation, Simulation, App Development, 
                     Gait Analysis, Technology Management, Biomechanics, and Biomaterials.
-                </p>
+                </div>
             </section>
 
             <!-- Education Section -->
             <section id="education">
                 <h2 class="text-2xl font-bold border-b-2 border-blue-900 pb-2 mb-4 text-blue-900">Education</h2>
                 <ul class="space-y-4">
-                    <li class="bg-white p-4 rounded shadow-sm">
+                    <li class="bg-white p-5 rounded shadow-sm border border-gray-100">
                         <span class="font-bold text-blue-900">M.Sc. in Management of Technology</span><br>
-                        Bangladesh University of Engineering and Technology (BUET)
+                        BUET (Bangladesh University of Engineering and Technology)
                     </li>
-                    <li class="bg-white p-4 rounded shadow-sm">
+                    <li class="bg-white p-5 rounded shadow-sm border border-gray-100">
                         <span class="font-bold text-blue-900">B.Sc. in Biomedical Engineering</span><br>
                         Military Institute of Science and Technology (MIST)
                     </li>
