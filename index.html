@@ -13,9 +13,9 @@
         <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
             <span class="font-bold text-xl text-blue-900">Ananya Anower</span>
             <div class="space-x-6">
-                <a href="#about" class="hover:text-blue-600">About</a>
-                <a href="#research" class="hover:text-blue-600">Research</a>
-                <a href="#cv" class="hover:text-blue-600">CV</a>
+                <!-- Changed: Links now point to Home and the new Projects page -->
+                <a href="index.html" class="hover:text-blue-600 font-medium">Home</a>
+                <a href="projects.html" class="hover:text-blue-600 font-medium">Projects</a>
             </div>
         </div>
     </nav>
@@ -25,16 +25,14 @@
         <!-- Sidebar -->
         <aside class="md:col-span-1">
             <div class="bg-white p-6 rounded-lg shadow-sm text-center">
-                <!-- Fixed: Changed \ to / for web compatibility -->
                 <img src="images/Profile.jpg" alt="Ananya Anower" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-2 border-blue-900">
                 <h1 class="text-xl font-bold">Ananya Anower</h1>
                 <p class="text-gray-600 mb-4">Interdisciplinary Researcher</p>
                 <div class="flex justify-center flex-wrap gap-4 text-blue-900 font-semibold">
-    <a href="https://github.com/AnanyaAnower" target="_blank" class="hover:underline text-sm">GitHub</a>
-    <a href="https://orcid.org/0009-0009-9388-1639" target="_blank" class="hover:underline text-sm">ORCID</a>
-    <!-- LinkedIn Added Here -->
-    <a href="https://www.linkedin.com/in/contact-ananya-anower/" target="_blank" class="hover:underline text-sm">LinkedIn</a>
-</div>
+                    <a href="https://github.com/AnanyaAnower" target="_blank" class="hover:underline text-sm">GitHub</a>
+                    <a href="https://orcid.org/0009-0009-9388-1639" target="_blank" class="hover:underline text-sm">ORCID</a>
+                    <a href="https://www.linkedin.com/in/contact-ananya-anower/" target="_blank" class="hover:underline text-sm">LinkedIn</a>
+                </div>
                 <!-- Technical Skills Badges -->
                 <div class="mt-6 flex flex-wrap justify-center gap-2">
                     <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-mono">MATLAB</span>
@@ -50,32 +48,14 @@
             <section id="about">
                 <h2 class="text-2xl font-bold border-b-2 border-blue-900 pb-2 mb-4 text-blue-900">About Me</h2>
                 <p class="leading-relaxed text-gray-700">
-                    I am a researcher specializing in the intersection of Neuroengineering and Bioinformatics. 
+                    I am a researcher specializing in the intersection of **Neuroengineering** and **Bioinformatics**. 
                     My work focuses on developing AI-driven solutions for healthcare sustainability and 
                     enhancing brain-computer interfaces through advanced signal processing.
                 </p>
-
-                <!-- Fixed: Corrected the typo in hover:bg-blue-700 -->
-                
-            </section>
-             
-            <section id="research">
-                <h2 class="text-2xl font-bold border-b-2 border-blue-900 pb-2 mb-4 text-blue-900">Featured Projects</h2>
-                <div class="space-y-6">
-                    <div class="bg-white p-5 rounded shadow-sm border-l-4 border-blue-900">
-                        <h3 class="font-bold text-lg">AI-Powered Medical Waste Classification</h3>
-                        <p class="text-sm text-gray-600 italic">Management of Technology Focus</p>
-                        <p class="mt-2 text-gray-700">Developed a mobile application prototype to detect and classify medical waste categories, supporting regional circular economy initiatives.</p>
-                    </div>
-                    <div class="bg-white p-5 rounded shadow-sm border-l-4 border-blue-900">
-                        <h3 class="font-bold text-lg">EEG Signal Processing & P300 Analysis</h3>
-                        <p class="text-sm text-gray-600 italic">Neuroscience Research</p>
-                        <p class="mt-2 text-gray-700">Utilizing MATLAB and EEGLAB to analyze Event-Related Potentials (ERP) and improve the reliability of brain-computer interface systems.</p>
-                    </div>
-                </div>
             </section>
 
-            <section id="cv">
+            <!-- Education Section -->
+            <section id="education">
                 <h2 class="text-2xl font-bold border-b-2 border-blue-900 pb-2 mb-4 text-blue-900">Education</h2>
                 <ul class="space-y-4">
                     <li class="bg-white p-4 rounded shadow-sm">
