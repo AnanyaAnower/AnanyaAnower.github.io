@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEG Project Gallery | Ananya Anower</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-10">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="font-bold text-xl text-blue-900">Ananya Anower</a>
+            <div class="space-x-6 text-sm font-medium">
+                <a href="index.html" class="hover:text-blue-600">Home</a>
+                <a href="projects.html" class="hover:text-blue-600">Projects</a>
+                <a href="publications.html" class="hover:text-blue-600">Publications</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        <a href="projects.html" class="text-blue-600 hover:underline mb-4 inline-block font-medium">← Back to Projects</a>
+        
+        <div class="mb-10">
+            <h1 class="text-3xl font-bold text-blue-900 mb-2">Automated Makoto-Style Preprocessing Pipeline for High-Density EEG</h1>
+            <p class="text-gray-600">Visualizing signal-to-noise optimization and ICA artifact rejection for 256-channel datasets.</p>
+        </div>
+
+        <!-- Image Gallery Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- Image 1 -->
+            <div class="bg-white p-2 rounded-lg shadow-sm border border-gray-200">
+                <img src="images/img1.jpeg" alt="EEG Research Image 1" class="w-full h-64 object-cover rounded mb-2 hover:opacity-90 transition">
+                <p class="text-xs text-gray-500 italic text-center">Dataset Preprocessing Pipeline</p>
+            </div>
+
+            <!-- Image 2 -->
+            <div class="bg-white p-2 rounded-lg shadow-sm border border-gray-200">
+                <img src="images/img2.jpeg" alt="EEG Research Image 2" class="w-full h-64 object-cover rounded mb-2 hover:opacity-90 transition">
+                <p class="text-xs text-gray-500 italic text-center">ICA Component Mapping</p>
+            </div>
+
+            <!-- Image 3 -->
+            <div class="bg-white p-2 rounded-lg shadow-sm border border-gray-200">
+                <img src="images/img3.jpeg" alt="EEG Research Image 3" class="w-full h-64 object-cover rounded mb-2 hover:opacity-90 transition">
+                <p class="text-xs text-gray-500 italic text-center">ERP Waveform Analysis</p>
+            </div>
+
+            <!-- Image 4 -->
+            <div class="bg-white p-2 rounded-lg shadow-sm border border-gray-200">
+                <img src="images/img4.jpeg" alt="EEG Research Image 4" class="w-full h-64 object-cover rounded mb-2 hover:opacity-90 transition">
+                <p class="text-xs text-gray-500 italic text-center">Signal Processing Results</p>
+            </div>
+
+            <!-- To add more images, just copy the block above and change the img src to img5.jpeg, img6.jpeg etc. -->
+
+        </div>
+
+        <div class="mt-12 bg-blue-900 text-white p-8 rounded-lg shadow-lg">
+            <h2 class="text-xl font-bold mb-4">Research Summary</h2>
+            <p class="text-blue-50 leading-relaxed">
+                This project focuses on the stability of **P300 Event-Related Potentials** during long-term cognitive tasks. 
+                Using **MATLAB** and **EEGLAB**, I engineered an automated pipeline to handle high-density data, 
+                significantly reducing manual labor while increasing the precision of artifact detection in **256-channel** recordings.
+            </p>
+        </div>
+    </main>
+
+</body>
+</html>
